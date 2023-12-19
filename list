@@ -1,1 +1,21 @@
-192.168.1.13
+{
+        "version": "1.0",
+        "description": "Example DEMO",
+        "objects": [
+                {
+                        "name": "SOC Blocked Sources",
+                        "description": "Example SOC Blocked Sources",
+                        "id": "",
+                        "ranges": [
+                                "2.2.2.2",
+                                "2.2.2.3"
+                        ]
+                },
+                {
+                        "name": "SOC Quarantined Sources",
+                        "description": "Example SOC Internal sources that have limited outgoing access ",
+                        "id": "",
+                        "ranges": [172.30.15.36]
+                }
+        ]
+}
