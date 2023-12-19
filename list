@@ -15,7 +15,9 @@
                         "name": "SOC Quarantined Sources",
                         "description": "Example SOC Internal sources that have limited outgoing access ",
                         "id": "43e07082-06da-48ee-8eab-9f37828bb512",
-                        "ranges": [172.30.15.36]
+                        "ranges": [
+                                "172.30.15.36"
+                        ]
                 }
         ]
 }
